@@ -1,0 +1,4 @@
+intro q p
+apply h
+constructor
+repeat {assumption}
