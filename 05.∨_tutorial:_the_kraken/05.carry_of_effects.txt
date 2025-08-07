@@ -1,0 +1,1 @@
+exact or_elim h2 (h1 ≫ or_inl) or_inr
