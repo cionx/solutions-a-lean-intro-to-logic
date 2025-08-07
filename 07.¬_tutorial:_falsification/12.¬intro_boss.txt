@@ -1,0 +1,5 @@
+-- Have: (B → C) → ⊥ and B → ⊥
+-- Need: ⊥
+-- Idea: We B → C, which we can get by composing B → ⊥ with ⊥ → C.
+
+exact (· ≫ false_elim) ≫ h
