@@ -1,0 +1,2 @@
+apply h
+assumption
