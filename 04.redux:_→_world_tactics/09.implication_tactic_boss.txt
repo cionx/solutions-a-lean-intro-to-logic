@@ -1,0 +1,3 @@
+intro q
+constructor
+repeat {intro; assumption}
