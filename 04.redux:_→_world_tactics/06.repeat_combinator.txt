@@ -1,0 +1,5 @@
+intro p
+intro q
+apply h
+constructor
+repeat assumption
