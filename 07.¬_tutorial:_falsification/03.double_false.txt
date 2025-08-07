@@ -1,2 +1,5 @@
-have eval {P Q} (p : P) (pq : P → Q) : Q := pq p
-exact eval p
+-- Have: p : P
+-- Need: (P → ⊥) → ⊥
+-- Idea: Every p : P gives (P → Q) → Q via evaluation at p.
+
+exact (modus_ponens · p)
