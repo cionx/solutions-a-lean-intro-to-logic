@@ -1,0 +1,2 @@
+have ⟨sc, sd⟩ := h
+exact λ s ↦ ⟨sc s, sd s⟩
