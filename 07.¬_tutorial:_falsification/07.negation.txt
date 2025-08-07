@@ -1,0 +1,8 @@
+-- Have: (B → C) → ⊥
+-- Need: C → ⊥
+-- Idea: Every c : C gives us a constant function of type B → C,
+--       resulting in C → (B → C), which can then be composed
+--       with the given (B → C) → ⊥.
+
+have const {B C} (c : C) (_ : B) : C := c
+exact const ≫ h
