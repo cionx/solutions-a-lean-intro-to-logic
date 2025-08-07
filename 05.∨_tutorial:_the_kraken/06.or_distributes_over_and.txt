@@ -1,0 +1,3 @@
+have h1 (g : G) : (G ∨ H) ∧ (G ∨ U) := ⟨or_inl g, or_inl g⟩
+have h2 (x : H ∧ U) : (G ∨ H) ∧ (G ∨ U) := ⟨or_inr x.left, or_inr x.right⟩
+exact or_elim h h1 h2
