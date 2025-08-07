@@ -1,0 +1,5 @@
+have g : G := h.left
+have hu : H ∨ U := h.right
+have h1 (h : H) : G ∧ H := ⟨g, h⟩
+have h2 (u : U) : G ∧ U := ⟨g, u⟩
+exact or_elim hu (h1 ≫ or_inl) (h2 ≫ or_inr)
