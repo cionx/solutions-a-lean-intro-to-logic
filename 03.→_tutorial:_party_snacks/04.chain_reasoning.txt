@@ -1,0 +1,1 @@
+exact λ c ↦ h2 (h1 c)
