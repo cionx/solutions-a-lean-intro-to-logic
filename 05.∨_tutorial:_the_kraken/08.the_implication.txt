@@ -1,0 +1,1 @@
+exact λ ki ↦ or_elim ki (h ≫ or_inr) or_inl
