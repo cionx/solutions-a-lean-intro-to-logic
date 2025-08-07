@@ -1,0 +1,2 @@
+have eval {P Q} (p : P) (pq : P → Q) : Q := pq p
+exact eval p
