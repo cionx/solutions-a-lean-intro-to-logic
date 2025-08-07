@@ -4,5 +4,5 @@
 --       resulting in C → (B → C), which can then be composed
 --       with the given (B → C) → ⊥.
 
-have const {B C} (c : C) (_ : B) : C := c
+have const {B C} (c : C) (_ : B) := c
 exact const ≫ h

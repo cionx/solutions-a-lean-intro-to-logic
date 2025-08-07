@@ -1,1 +1,3 @@
-exact λ r ↦ ⟨λ _ ↦ r, λ _ ↦ r⟩
+have const {P Q} (p : P) (_ : Q) := p
+
+exact λ r ↦ ⟨const r, const r⟩

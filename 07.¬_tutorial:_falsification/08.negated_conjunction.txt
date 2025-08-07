@@ -2,4 +2,4 @@
 -- Need: ⊥
 -- Idea: Just apply S → ⊥ to S.
 
-exact and_left ≫ (modus_ponens · s)
+exact and_left ≫ (· s)

@@ -2,4 +2,4 @@
 -- Need: (P → ⊥) → ⊥
 -- Idea: Every p : P gives (P → Q) → Q via evaluation at p.
 
-exact (modus_ponens · p)
+exact (· p)
