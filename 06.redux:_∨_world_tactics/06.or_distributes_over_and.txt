@@ -1,0 +1,15 @@
+constructor
+cases h
+
+left
+assumption
+cases h_1
+right
+assumption
+
+cases h
+left
+assumption
+cases h_1
+right
+assumption
