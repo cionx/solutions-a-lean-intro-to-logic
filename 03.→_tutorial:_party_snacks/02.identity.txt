@@ -1,1 +1,2 @@
-exact λ c ↦ c
+have id (c : C) : C := c
+exact id
