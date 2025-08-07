@@ -1,0 +1,9 @@
+-- Have: ((A → ⊥) → ⊥) → ⊥ and A
+-- Need: ⊥
+-- Idea: Suppose we have ((A → B) → B) → B and A.
+--       To get B we thus need (A → B) → B.
+--       We thus need B from A and A → B, which is just application.
+
+have swap_args {P Q R} (pqr : P → Q → R) : Q → P → R := λ q p ↦ pqr p q
+
+exact (swap_args modus_ponens) ≫ h
