@@ -1,4 +1,4 @@
-# Solutions to _A Lean Introduction to Logic_
+# Solutions to _A Lean Intro to Logic_
 
 This repository contains my solutions to [_A Lean Intro to Logic_][1].
 
