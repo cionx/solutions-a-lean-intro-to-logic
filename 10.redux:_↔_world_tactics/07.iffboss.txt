@@ -1,0 +1,26 @@
+constructor
+
+intro h q
+cases h
+constructor
+intro p
+apply and_left
+apply mp
+constructor
+repeat {assumption}
+intro r
+apply and_left
+apply mpr
+constructor
+repeat {assumption}
+
+intro h
+constructor
+intro ⟨p, q⟩
+constructor
+apply (h q).mp
+repeat {assumption}
+intro ⟨r, q⟩
+constructor
+apply (h q).mpr
+repeat {assumption}
