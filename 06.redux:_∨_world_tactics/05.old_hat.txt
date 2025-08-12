@@ -1,8 +1,6 @@
 cases h2
-
-left
-apply h1
-assumption
-
-right
-assumption
+· left
+  apply h1
+  assumption
+· right
+  assumption

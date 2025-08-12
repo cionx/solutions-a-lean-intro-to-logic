@@ -1,4 +1,4 @@
 intro ⟨p, q⟩
 constructor
-assumption
-assumption
+· assumption
+· assumption

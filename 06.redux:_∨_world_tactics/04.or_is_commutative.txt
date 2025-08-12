@@ -1,7 +1,5 @@
 cases h
-
-right
-assumption
-
-left
-assumption
+· right
+  assumption
+· left
+  assumption

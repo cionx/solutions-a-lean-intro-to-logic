@@ -1,3 +1,6 @@
 intro q
 constructor
-repeat {intro; assumption}
+· intro p
+  assumption
+· intro np
+  assumption

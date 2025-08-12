@@ -1,10 +1,10 @@
 cases h
 cases right
-
-left
-constructor
-repeat {assumption}
-
-right
-constructor
-repeat {assumption}
+· left
+  constructor
+  · assumption
+  · assumption
+· right
+  constructor
+  · assumption
+  · assumption

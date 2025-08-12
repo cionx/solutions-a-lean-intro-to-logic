@@ -1,7 +1,7 @@
 cases h
 intro p
 constructor
-apply left
-assumption
-apply right
-assumption
+· apply left
+  assumption
+· apply right
+  assumption
